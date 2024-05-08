@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    
+</head>
+
+<body>
+    <div class="links">
+        <a href="index.html"><img src="./images/main.gif" alt="image of the tardis"></a>
+    </div>
+        <link rel="stylesheet" href="style.css">
+
+
+    <form id="registration-form">
+        <label for="full-name">Login:</label>
+        <input type="text" id="full-name" name="full-name"pattern="{1-8}"title="Login should have min 1 max 8 symbols" required>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      
+        <label for="phone">Telephone Number:</label>
+        <input type="tel" id="phone" name="phone" pattern="\(\d{3}\) \d{3}-\d{4}" title="Phone number should be in the format (XXX) XXX-XXXX">
+
+      
+        <label for="postal-code">Postal-code:</label>
+        <input type="text" id="postal-code" name="postal-code" pattern="[0-9]{5}"title="Postal-code should be 5 digits long and contain only numbers" required>
+      
+        <button type="submit">Registration</button>
+      </form>
+      
+</body>
+</html>

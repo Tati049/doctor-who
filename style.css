@@ -1,0 +1,130 @@
+body{
+  background-image: url(./images/background6.avif);
+  background-size:contain;
+}
+  .links{
+    text-align: right;
+  }
+  .doctor{
+    height: 150px;
+    width: 80%;
+    padding-left: 20px;
+    margin-left: 50px;
+   
+  
+    
+  }
+  .about{
+    height: 150px;
+    width: 600px;
+    background-color: rgba(102, 73, 169, 0.184);
+    padding: 20px;
+    margin-left: 190px;
+    margin-top: -160px;
+    font-size: 2em;
+    
+    
+  }
+  h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 200%;
+    text-align: left;
+    color: rgb(83, 36, 126);
+  
+  }
+  
+  p{
+    font-family: "Caveat", cursive;
+    font-size: 14px;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.679);
+    text-align: left;
+  }
+  .img{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .img {
+    position: relative; 
+}
+
+.img {
+    display: inline-block; 
+    width: 220px; 
+    margin-right: 15px; 
+    margin-bottom: 15px;
+    position: relative; 
+    vertical-align: top; 
+}
+
+.caption {
+    position:absolute;
+    bottom: 0; 
+    left: 0; 
+    color: rgb(46, 17, 66);
+    background-color: rgba(255, 255, 255, 0.47); 
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 3px; 
+    width: 100%; 
+}
+h2{
+    color: aliceblue;
+    font-family: fantasy;
+    font-weight: unset;
+}
+.ul{
+    color:wheat
+}
+
+td{
+color: bisque;
+}
+
+body {
+  background-color: blanchedalmond;
+}
+
+#registration-form {
+  max-width: 400px;
+  margin: 0 auto;
+  color: rgb(212, 194, 223);
+  background-color: #3b1b42;
+  display: flex; 
+  flex-direction: column;
+  align-items: center; 
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  text-align: right; 
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  color: blanchedalmond;
+  background-color: rgba(218, 145, 244, 0.249);
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: whitesmoke;
+  color: rgb(93, 76, 52);
+  font-family: 'Courier New', Courier, monospace;
+  padding: 20px 20px;
+  margin: 10px 0;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.1, 1.1);
+  color: aliceblue;
+  background-color: #764775; 
+}
