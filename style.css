@@ -1,6 +1,7 @@
 body{
   background-image: url(./images/background6.avif);
   background-size:contain;
+  color: white;
 }
   .links{
     text-align: right;
